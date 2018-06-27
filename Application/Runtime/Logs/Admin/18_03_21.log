@@ -1,0 +1,268 @@
+[ 2018-03-21T18:15:42+08:00 ] ::1 /APP/index.php/Admin/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.160010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022001s ]
+
+[ 2018-03-21T18:15:42+08:00 ] ::1 /APP/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.032002s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.032002s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.233013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.233013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037003s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033002s ]
+
+[ 2018-03-21T18:15:44+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:17:05+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-21T18:17:05+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:17:24+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:17:24+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928?0.2540373276387109
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:17:29+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-21T18:17:29+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928?0.2540373276387109?0.6663153521402829
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:18:16+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-21T18:18:16+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928?0.2540373276387109?0.6663153521402829?0.8634841996562661
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T18:18:25+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-21T18:18:25+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928?0.2540373276387109?0.6663153521402829?0.8634841996562661?0.6745929113684821
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:18:55+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-03-21T18:18:55+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.8271783251887928?0.2540373276387109?0.6663153521402829?0.8634841996562661?0.6745929113684821?0.8696978190873397
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T18:19:16+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-03-21T18:19:17+08:00 ] ::1 /APP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-21T18:19:18+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0310s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-21T18:22:03+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:MiddleLevel
+
+[ 2018-03-21T18:25:29+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,30 @@
+[ 2018-04-18T22:53:21+08:00 ] ::1 /APP/Public/css/images/main1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.047003s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-18T22:53:21+08:00 ] ::1 /APP/Public/images/images/search2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.038002s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-18T22:53:21+08:00 ] ::1 /APP/Public/css/images/search2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042002s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-18T22:53:21+08:00 ] ::1 /APP/Public/css/images/body_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.049003s ]
+ERR: 无法加载模块:Public
+
+[ 2018-04-18T22:53:21+08:00 ] ::1 /APP/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+

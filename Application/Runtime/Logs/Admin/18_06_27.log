@@ -1,0 +1,1298 @@
+[ 2018-06-27T22:07:09+08:00 ] ::1 /APP/index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:07:09+08:00 ] ::1 /APP/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:07:10+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:07:20+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.3100s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-27T22:07:21+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.028375598751754882
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:07:30+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-27T22:07:30+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.028375598751754882?0.4918448419530297
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:07:41+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-06-27T22:07:41+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html?0.028375598751754882?0.4918448419530297?0.29027059209385575
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:16:27+08:00 ] ::1 /APP/index.php/Admin/Public/checkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `nav_admin` WHERE `username` = 'mr' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-06-27T22:16:28+08:00 ] ::1 /APP/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:29+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0730s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.345020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.345020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:34+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 17 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc , sort desc LIMIT 0,10   [ RunTime:0.0160s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0140s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 145 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:37+08:00 ] ::1 /APP/index.php/Admin/ElementaryLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_elementary_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 18 行.
+SQL: SELECT * FROM `nav_elementary_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0110s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0080s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-27T22:16:38+08:00 ] ::1 /APP/index.php/Admin/Datalist/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_datalist` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_datalist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 20 行.
+SQL: SELECT * FROM `nav_datalist` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0020s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0060s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 92 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:40+08:00 ] ::1 /APP/index.php/Admin/Hot/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_hot` [ RunTime:0.0230s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_hot` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_hot` WHERE `type` = 0 ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 131 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 134 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 137 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 155 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 166 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 175 行.
+NOTIC: [8] Undefined variable: Array D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 175 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:43+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-06-27T22:16:44+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0090s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 17 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc , sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 145 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:44+08:00 ] ::1 /APP/index.php/Admin/ElementaryLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_elementary_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 18 行.
+SQL: SELECT * FROM `nav_elementary_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0070s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:45+08:00 ] ::1 /APP/index.php/Admin/ElementaryLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_elementary_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 18 行.
+SQL: SELECT * FROM `nav_elementary_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0150s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0120s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:46+08:00 ] ::1 /APP/index.php/Admin/Datalist/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_datalist` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_datalist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 20 行.
+SQL: SELECT * FROM `nav_datalist` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0080s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0110s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 92 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:47+08:00 ] ::1 /APP/index.php/Admin/Datalist/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_datalist` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_datalist` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 20 行.
+SQL: SELECT * FROM `nav_datalist` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0090s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0090s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0070s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 92 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:48+08:00 ] ::1 /APP/index.php/Admin/Hot/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_hot` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_hot` WHERE `type` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_hot` WHERE `type` = 0 ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 131 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 134 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 137 行.
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 155 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 166 行.
+NOTIC: [8] Array to string conversion D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 175 行.
+NOTIC: [8] Undefined variable: Array D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 175 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 188 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 189 行.
+NOTIC: [8] Undefined index: type D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\5f5a152cff6220d4215ce3902f117f0b.php 第 191 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:16:50+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-06-27T22:16:52+08:00 ] ::1 /APP/index.php/Admin/MiddleLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 13 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_middle_level` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\MiddleLevelController.class.php 第 17 行.
+SQL: SELECT * FROM `nav_middle_level` ORDER BY high_id desc , sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `nav_high_level` WHERE ( 1=1 AND id='19' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 145 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\48ca1265ace3084b6af5ae5fbf2adc84.php 第 176 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:16:53+08:00 ] ::1 /APP/index.php/Admin/ElementaryLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 14 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_elementary_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\ElementaryLevelController.class.php 第 18 行.
+SQL: SELECT * FROM `nav_elementary_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 29 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0080s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 175 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\756ab8553d3f81609a91e0b03f281eb2.php 第 176 行.
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:16:54+08:00 ] ::1 /APP/index.php/Admin/Datalist/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_datalist` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 16 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_datalist` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\DatalistController.class.php 第 20 行.
+SQL: SELECT * FROM `nav_datalist` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 97 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_middle_level` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0090s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `nav_elementary_level` [ RunTime:0.0070s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 91 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 93 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 90 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 92 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 24 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`high_id`,`middle_name` FROM `nav_middle_level` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `elementary_name` FROM `nav_elementary_level` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\2bccd9d07dc58baf32219c8a927dec8f.php 第 178 行.
+SQL: SELECT * FROM `nav_datalist` WHERE `id` = 96 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `high_name` FROM `nav_high_level` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:17:35+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.031002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031002s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021001s ]
+
+[ 2018-06-27T22:17:38+08:00 ] ::1 /APP/index.php/Admin/HighLevel/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `nav_high_level` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: map D:\phpStudy\PHPTutorial\WWW\APP\Application\Admin\Controller\HighLevelController.class.php 第 21 行.
+SQL: SELECT * FROM `nav_high_level` ORDER BY sort desc LIMIT 0,10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: keyword D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 145 行.
+NOTIC: [8] Undefined index: p D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 156 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 176 行.
+NOTIC: [8] Undefined index: entity_id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\9c2beb313b914c6391b3fbbcdfe3fff0.php 第 177 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:22:35+08:00 ] ::1 /APP/index.php/Admin/HighLevel/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `nav_high_level` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Common/admin/footer.html): failed to open stream: No such file or directory D:\phpStudy\PHPTutorial\WWW\APP\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 131 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 136 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 137 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 144 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 150 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 155 行.
+NOTIC: [8] Undefined variable: data D:\phpStudy\PHPTutorial\WWW\APP\Application\Runtime\Cache\Admin\c5e5a590f8def41735c09c7493f535ab.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:37:20+08:00 ] ::1 /APP/index.php/Admin/Public/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-06-27T22:37:20+08:00 ] ::1 /APP/index.php/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-06-27T22:37:20+08:00 ] ::1 /APP/index.php/Admin/Public/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
