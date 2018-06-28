@@ -1,0 +1,5 @@
+Thinkphp3.2.3 框架
+类似于hao123网站
+
+数据库：在sql文件下，配置数据库文件在Application\Common\Conf\config.php
+后台：username=>mr password => 123456 
